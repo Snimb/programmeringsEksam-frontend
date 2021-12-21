@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registrer Kandidat</title>
+</head>
+<body>
+<!-- NavBar -->
+<nav>
+  <div>
+    <a href="/programmeringsEksam-frontend/oversigt.html">Oversigt</a>
+  </div>
+  <div>
+    <a href="/programmeringsEksam-frontend/stemme-oversigt.html">Stemmefordelingen</a>
+  </div>
+  <div>
+    <a href="/programmeringsEksam-frontend/create-parti.html">Opret Parti</a>
+  </div>
+  <a href="/programmeringsEksam-frontend/create-kandidat.html">Registrer Kandidat</a>
+  <div>
+    <a href="/programmeringsEksam-frontend/rediger-partier.html">Rediger Partier</a>
+  </div>
+  <div>
+    <a href="/programmeringsEksam-frontend/rediger-kandidater.html">Rediger Kandidater</a>
+  </div>
+</nav>
+
+<!-- Create Kandidat Form -->
+<h3>Registrer Kandidat</h3>
+<div>
+  <input type="text" name="kandidatName" placeholder="Fulde Navn" id="inpKandidatName">
+</div>
+<select id="selectDropdown" placeholder-text="Kandidat">
+</select>
+<button type="button" title="newKandidat" onclick="newKandidat()" id="kandidat" value="create"
+        class="newKandidatBtn">Registrer
+</button>
+
+<!-- Custom Script -->
+<script src="js/CreateKandidat.js"></script>
+</body>
+</html>
